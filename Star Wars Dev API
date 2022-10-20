@@ -1,0 +1,65 @@
+the height of Darth Vader
+
+https://swapi.dev/api/people/?search=vader
+
+the population of the planet Alderaan
+
+https://swapi.dev/api/planets/?search=alderaan
+
+the name of the manufacturer of the Millennium Falcon
+
+https://swapi.dev/api/starships/?search=Millennium
+
+the name of the species that C-3PO belongs to (multiple URLs)
+
+https://swapi.dev/api/people/?search=c-3po
+
+the title of each film that Obi-Wan Kenobi is in (multiple URLs)
+
+https://swapi.dev/api/people/?search=Obi-Wan Kenobi
+
+
+
+use the search query (the how to on the search query is at the bottom of the Getting Started section of the documentation) to get the information about the Millennium Falcon, it’s a starship
+
+https://swapi.dev/api/starships/?search=Millennium
+
+Check if the POST request accept params, queries, and/or a body. Which one(s) and what information is it expecting to be sent?
+
+it does not accept params or queries only body. 
+
+What data type does the GET request return?
+
+it returns objects 
+
+What would the URL look like for deleting the post with the id 555? (This post does not exist anymore, but the syntax is the same for existing posts, )
+
+https://practiceapi.devmountain.com/api/posts?id=1291
+
+List the possible response codes from the GET request at ‘/posts/filter’
+
+Request query is missing required text property.
+https://practiceapi.devmountain.com/api/posts/filter?text=480
+
+Create a post whose text is your name, record the URL and body here:
+
+https://practiceapi.devmountain.com/api/posts/filter?text=amy
+
+What would the URL and body object be to update the post you just made to contain your faovrite color instead of your name?
+
+https://practiceapi.devmountain.com/api/posts?id=1314
+
+
+What is the URL to get posts that contain the text “blue”?
+https://practiceapi.devmountain.com/api/posts/filter?text=blue
+
+Make a request to GET all the posts. What are the content type and charset of the response? (Hint: look on the Headers)
+application/json; charset=utf-8
+
+What would cause a PUT request to return a 409 status?
+
+For example, you may get a 409 response when uploading a file that is older than the existing one on the server, resulting in a version control conflict.
+
+What happens if you try to send a query in the GET request URL? Why do you get that response?
+
+if there are no filters then it won't give you anything. 
